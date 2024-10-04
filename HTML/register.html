@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register Here</title>
+    <style>
+        @import url(/CSS/style.css);
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1>Register</h1>
+        <p>Please fill inthis form to create an account</p>
+        <hr>
+        <form name="register" method="post" action="/createUser">
+         <label for="email"><b>Email</b></label>
+         <input type="email" name="email" id="email" placeholder="Enter valid Email"/>
+         <label for="password"><b>Password</b></label> 
+         <input type="password" name="pass" id="pass" placeholder="Enter your password"/>
+         <label for="cpassword"><b>Confirm Password</b></label>
+         <input type="password" name="cpass" id="cpass" placeholder="Confirm Password"/>
+         <hr>
+         <p>By creating an account you aggree to our <a href="#">Terms and Privacy<a></a></p>
+        <input type="submit" value="Register" id="register"/>
+        <input type="reset" value="Reset" id="reset"/>
+
+        </form>
+        <div class="signin">
+            <p>Already have an Account?<a href="#">Sign In</a></p>
+        </div>
+    </div>
     
 </body>
 </html>
