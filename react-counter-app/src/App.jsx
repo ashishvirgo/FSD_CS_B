@@ -3,6 +3,7 @@ import Home from './Components/Home'
 import Counter from './Components/Counter'
 import Stopwatch from './Components/Stopwatch'
 import Refex from './Components/Refex'
+import Contextex from "./Components/Contextex"
 const App=()=>{
   return(
     <div>
@@ -11,6 +12,7 @@ const App=()=>{
         <Route path="/counter" element={<Counter/>}></Route>
         <Route path="/stopwatch" element={<Stopwatch/>}></Route>
         <Route path="/refex" element={<Refex/>}></Route>
+        <Route path="/context" element={<Contextex/>}></Route>
         <Route path="*" element={<h1>No Page Available</h1>}></Route>
       </Routes>
     </div>
