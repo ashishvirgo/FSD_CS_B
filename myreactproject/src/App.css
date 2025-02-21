@@ -1,0 +1,66 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+nav{
+  width: 100vw;
+  height: 5vh;
+  background-color: gold;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+li a{
+  text-decoration: none;
+}
+.recipe{
+  min-width: 60vw;
+  min-height: 80vh;
+  background-color: darkred;
+  display: flex;
+  justify-content: center;
+  color: cornsilk;
+}
+table td{
+  border: 1px solid burlywood
+}
+td#price{
+  width:100px;
+  text-align: center;
+}
+td#img{
+  width:100px;
+  text-align: center;
+}
+tr th{
+  text-align: center;
+}
+.header{
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color: white;
+}
+.footer{
+  width: 100vw;
+  height: 5vh;
+  background-color: black;
+  color: white;
+}
+.login{
+  display: flex;
+  padding: 20px;
+  width: 100vw;
+  height: 80vh;
+}
+.left{
+  width: 50vw;
+  height: 80vh;
+}
+.right{
+  width: 50vw;
+  height: 80vh;
+}
