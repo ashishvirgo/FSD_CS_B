@@ -1,0 +1,36 @@
+.home-container{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.home-content{
+    width: 100vw;
+    height: 75vh;
+}
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    margin: auto;
+    border: 1px solid red;
+    background-color: blueviolet;
+    color: paleturquoise;
+    
+}
+.navbar ul {
+    list-style-type: none;
+    
+}
+.header{
+    width: 100vw;
+    height: 10vh;
+    border: 1px solid red;
+    background-color: black;
+    color: gold;
+}
+.footer{
+    width: 100vw;
+    height: 5vh;
+    border: 1px solid red;
+    background-color: yellow;
+    color: gray;
+}
