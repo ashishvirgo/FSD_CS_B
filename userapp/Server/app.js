@@ -6,6 +6,7 @@ const userroute=require("./Routes/userRoutes");
 dotenv.config();
 const Port=process.env.PORT || 3000;
 dbConnect();
+app.use(cors())
 app.use(express.json());
 app.use("/",userroute);
 app.listen(Port,()=>{
